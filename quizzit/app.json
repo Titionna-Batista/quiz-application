@@ -1,0 +1,12 @@
+{
+  "name": "quizzit",
+  "displayName": "quizzit",
+  "expo": {
+    "name": "quizzit",
+    "slug": "quizzit",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
