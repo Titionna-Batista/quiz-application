@@ -1,8 +1,27 @@
 const questions = [
     {
         question: "What is a man?",
+        answers:[
+            {key: "1", text: "A miserable pile of secrets", correct: true},
+            {key: "2", text: "A miserable pile of secrets"},
+            {key: "3", text: "A miserable pile of secrets"},
+            {key: "4", text: "A miserable pile of secrets"},
+            {key: "4", text: "A miserable pile of secrets"}
+        ]
+    },
+    {
+        question: "Dogs are ______",
+        answers: [
+            {key: "1", text: "fantastic"},
+            {key: "2", text: "Amazing"},
+            {key: "3", text: "Cool"},
+            {key: "4", text: "Great"},
+            {key: "4", text: "All of the above", correct: true}
+        ]
     }
-]
+];
+
+export default questions;
 
 /* Possible Questions:
 Categories:
@@ -28,7 +47,7 @@ Categories:
 4) What is the capital of Alaska?
 5) What is the capital of Arkansas?
 
-- Random
+- Random Selection
 1) What is the largest lake in the world?
 2) What color is a Welsh Poppy?
 3) What is the oldest breed of dog?
